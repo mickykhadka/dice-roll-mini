@@ -1,0 +1,23 @@
+.RollDice-die {
+  width: 500px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.RollDice button {
+  color: white;
+  padding: 20px 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  box-shadow: 2px 2px 9px 1px rgba(255, 157, 44, 0.29);
+  background-color: #000;
+}
+
+.RollDice button:hover {
+  background-color: #9c00ff;
+}
